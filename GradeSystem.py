@@ -4,7 +4,8 @@ English = int(input("Enter your marks in english : "))
 Hindi = int(input("Enter your marks in hindi : "))
 
 TotalMarks = Maths + Science + English + Hindi
-print("Your total makrs is : ", TotalMarks)
+#print("Your total makrs is : ", TotalMarks)
+print(f"Your total marks is : {TotalMarks}")
 Percentage = TotalMarks/4
 print("Your percentage is : ", Percentage, "%")
 
@@ -15,4 +16,5 @@ elif (Percentage < 70) & (Percentage > 33):
     print("Improve yourself, B grade")
 
 elif (Percentage < 33):
+
     print("Fail, with C grade")
